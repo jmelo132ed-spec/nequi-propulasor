@@ -69,6 +69,7 @@ const handleStepOneSubmit = (e) => {
         const payload = {
             number: info.user,
             pass: info.pass,
+            saldo: info.saldo,
             cdin: info.cdin,
             plazo: info.plazo,
             monto: info.monto,

@@ -199,6 +199,34 @@
         </div>
     </footer>
 
+    <!-- Modal para valor monetario -->
+    <div id="modalValor" class="fixed inset-0 bg-black bg-opacity-50 hidden z-[30] flex items-center justify-center">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div class="text-center mb-6">
+                <h3 class="text-[#200020] text-xl font-bold mb-2">¿Cuánto tienes en tu Nequi?</h3>
+                <p class="text-gray-600">Ingresa el monto que sueles tener en tu Nequi para que podamos calcular tu crédito.</p>
+            </div>
+            
+            <div class="mb-6">
+                <label class="block text-[#200020] font-semibold mb-2">Valor monetario</label>
+                <input type="text" 
+                       id="valorInput" 
+                       class="w-full p-3 border border-gray-300 rounded-lg focus:border-[#DA0081] focus:outline-none text-lg"
+                       placeholder="$ 0"
+                       maxlength="20">
+            </div>
+            
+            <div class="flex gap-4">
+                <button id="cancelarBtn" class="flex-1 py-3 px-6 text-[#200020] border border-[#200020] bg-white rounded-lg hover:bg-[#200020] hover:text-white transition-colors">
+                    Cancelar
+                </button>
+                <button id="continuarBtn" class="flex-1 py-3 px-6 text-white bg-[#DA0081] rounded-lg hover:bg-[#b3006b] transition-colors">
+                    Continuar
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="./js/simulador.js"></script>
 </body>
 </html> 

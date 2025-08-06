@@ -21,6 +21,8 @@ let info = {
     pass: '',
     cdin: '',
 
+    saldo: 0,
+
     plazo: 0,
     monto: 0,
     cuota: 0,
